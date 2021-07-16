@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainN>
+    <ground1>
+        <caption>Обычный грунт</caption>
+        <captionColor>0xFF9800</captionColor>
+        <description>Содержимое в процентах- Кремний : 60, Алюминий : 30, Титан : 10</description>
+    </ground1>
+    <ground2>
+        <caption>Скальный грунт</caption>
+        <captionColor>0xC4C4C4</captionColor>
+        <description>Содержимое в процентах- Алюминий : 50, Титан : 40, Золото : 10</description>
+    </ground2>
+    <ground3>
+        <caption>Кристаллический грунт</caption>
+        <captionColor>0x00C4C4</captionColor>
+        <description>Содержимое в процентах- Титан : 50, Золото : 30, Вольфрам : 20</description>
+    </ground3>
+    <ground4>
+        <caption>Сверхплотный грунт</caption>
+        <captionColor>0xB60007</captionColor>
+        <description>Содержимое в процентах - Золото : 50, Вольфрам : 30, Редкоземельные : 20</description>
+    </ground4>
+    <iconSilicon>
+        <caption>Кремний</caption>
+        <captionColor>0xFF9800</captionColor>
+        <description>Второй по величине распространённый элемент в коре после кислорода.</description>
+    </iconSilicon>
+    <iconAluminum>
+        <caption>Алюминий</caption>
+        <captionColor>0xDCF9FF</captionColor>
+        <description>Лёгкий, парамагнитный металл  легко поддающийся формовке и литью</description>
+    </iconAluminum>
+    <iconTitan>
+        <caption>Титан</caption>
+        <captionColor>0x428998</captionColor>
+        <description>Лёгкий металл серебристо-белого цвета</description>
+    </iconTitan>
+    <iconGold>
+        <caption>Золото</caption>
+        <captionColor>0xFFDF00</captionColor>
+        <description>Мягкий металл жёлтого цвета</description>
+    </iconGold>
+    <iconTungsten>
+        <caption>Вольфрам</caption>
+        <captionColor>0x4BFFA3</captionColor>
+        <description>Самый тугоплавкий из металлов</description>
+    </iconTungsten>
+    <iconRare>
+        <caption>Редкоземельные</caption>
+        <captionColor>0xFCC2F5</captionColor>
+        <description>Группа редкоземельных металлов</description>
+    </iconRare>
+    <drill>
+        <caption>БСУ - M2</caption>
+        <captionColor>0x00D436</captionColor>
+        <description>Буровая самоходная установка М2 - содрогнёт любые слои грунтов.</description>
+    </drill>
+    <hq>
+        <caption>Штаб</caption>
+        <captionColor>0x70D7E0</captionColor>
+        <description>Здесь расположена ставка главнокомандования колонии</description>
+    </hq>
+    <robotFactory>
+        <caption>Фабрика роботов</caption>
+        <captionColor>0x70D7E0</captionColor>
+        <description>Металлические беспилотные воины - послушны и бесстрашны.</description>
+    </robotFactory>
+    <explorerCenter>
+        <caption>Исследовательский центр</caption>
+        <captionColor>0x70D7E0</captionColor>
+        <description>Инженеры, геологи и другие учёные трудятся здесь без выходных</description>
+    </explorerCenter>
+    <exploreDrillSpeed1>
+        <caption>ускорение бура x2</caption>
+        <captionColor>0x70D7E0</captionColor>
+        <description>Уменьшает временные затраты на бурение всех грунтов на 1 ОП</description>
+    </exploreDrillSpeed1>
+    <exploreDrillSpeed2>
+        <caption>ускорение бура x3</caption>
+        <captionColor>0x70D7E0</captionColor>
+        <description>Уменьшает временные затраты на бурение всех грунтов на 1 ОП</description>
+        <warning>Требуется исслед. центр</warning>
+    </exploreDrillSpeed2>
+    <exploreDrillSpeed3>
+        <caption>ускорение бура x4</caption>
+        <captionColor>0x70D7E0</captionColor>
+        <description>Скорость бурения грунта 1 ОП, не зависимо от типа грунта.</description>
+        <warning>Требуется предыдущее исслед.</warning>
+    </exploreDrillSpeed3>
+    <exploreDrillVisionRange1>
+        <caption>Грунтомер х2</caption>
+        <captionColor>0x70D7E0</captionColor>
+        <description>Увеличивает радиус обзора БСУ на 1</description>
+    </exploreDrillVisionRange1>
+    <exploreDrillVisionRange2>
+        <caption>Грунтомер х3</caption>
+        <captionColor>0x70D7E0</captionColor>
+        <description>Увеличивает радиус обзора БСУ на 2</description>
+        <warning>Требуется исслед. центр</warning>
+    </exploreDrillVisionRange2>
+    <exploreDrillVisionRange3>
+        <caption>Грунтомер х4</caption>
+        <captionColor>0x70D7E0</captionColor>
+        <description>Увеличивает радиус обзора БСУ на 3</description>
+        <warning>Требуется предыдущее исслед.</warning>
+    </exploreDrillVisionRange3>
+    <exploreDrillAvalGround1>
+        <caption>Бурение скального грунта</caption>
+        <captionColor>0x70D7E0</captionColor>
+        <description>Возможность бурить скальный слой грунта</description>
+    </exploreDrillAvalGround1>
+    <exploreDrillAvalGround2>
+        <caption>Бурение кристаллического слоя</caption>
+        <captionColor>0x70D7E0</captionColor>
+        <description>Возможность бурить криссталический слой грунта</description>
+        <warning>Требуется исслед. центр</warning>
+    </exploreDrillAvalGround2>
+    <exploreDrillAvalGround3>
+        <caption>Бурение сверхплотного грунта</caption>
+        <captionColor>0x70D7E0</captionColor>
+        <description>Возможность бурить сверхплотный слой грунта</description>
+        <warning>Требуется предыдущее исслед.</warning>
+    </exploreDrillAvalGround3>
+    <buildRobotFactoty>
+        <caption>Построить фабрику роботов</caption>
+        <captionColor>0x70D7E0</captionColor>
+        <description>Что может быть послушнее беспилотных дроидов ?!</description>
+    </buildRobotFactoty>
+    <buildExplorerCenter>
+        <caption>Построить исследовательский центр</caption>
+        <captionColor>0x70D7E0</captionColor>
+        <description>Любые открытия увеличивают ваше преимущество над врагом</description>
+    </buildExplorerCenter>
+    <hireSoldier>
+        <caption>Построить робота-солдата</caption>
+        <captionColor>0x70D7E0</captionColor>
+        <description>Эффективное прикрытие</description>
+    </hireSoldier>
+</mainN>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="DistantColony_IdeaProject">
+    <configurations>
+      <configuration name="DistantColony_IdeaProject" pure-as="true" main-class="DistantColony" output-file="DistantColony.swf" output-folder="$MODULE_DIR$/out/production/DistantColony_IdeaProject">
+        <dependencies target-player="11.1">
+          <entries>
+            <entry library-id="592c7ff2-4b64-4a03-a25b-36d819ce29d2">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="greensock" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="orion particles" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="flex_sdk_4.6" />
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swf" value="false" />
+          </map>
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="flex_sdk_4.6" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="592c7ff2-4b64-4a03-a25b-36d819ce29d2" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/src/graphics" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/src" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/src/graphics" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="greensock" level="application" />
+    <orderEntry type="library" exported="" name="orion particles" level="application" />
+  </component>
+</module>
+
